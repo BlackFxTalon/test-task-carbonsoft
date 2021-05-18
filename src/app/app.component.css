@@ -1,0 +1,24 @@
+.app-note-list {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+.app-note-areaview {
+  border-right: 2px solid black;
+}
+.main {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  min-height: 100vh;
+}
+@media (max-width: 700px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .app-note-list {
+    border-bottom: 2px solid black;
+  }
+  .app-note-areaview {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  border: 2px solid black;
+  height: 90px;
+  max-height: 90px;
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  color: black;
+  font-size: clamp(16px, 28px, 32px);
+  font-weight: bold;
+  padding-left: 1rem;
+  margin: 0;
+}

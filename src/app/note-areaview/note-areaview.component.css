@@ -1,0 +1,16 @@
+.note-areaview {
+  padding: 1rem;
+  display: none;
+}
+.note-areaview:target {
+  display: block;
+}
+.note-areaview__title {
+  color: #3164fd;
+  font-size: clamp(16px, 27px, 28px);
+  margin-top: 10px;
+}
+.note-areaview__text {
+  padding-bottom: clamp(10px, 1rem, 1.5rem);
+  line-height: clamp(20px, 24px, 26px);
+}

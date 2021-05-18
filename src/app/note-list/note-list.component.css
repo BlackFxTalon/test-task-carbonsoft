@@ -1,0 +1,30 @@
+.notes__nav {
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+.notes__list {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+.notes__item {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-size: clamp(14px, 20px, 22px);
+  font-weight: bold;
+  cursor: pointer;
+}
+.notes__item a {
+  text-decoration: none;
+  color: #3164fd;
+  display: block;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.3rem;
+}
+.notes__item.active {
+  background-color: #3164fd;
+}
+.notes__item.active > a {
+  color: white;
+}

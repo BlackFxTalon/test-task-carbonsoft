@@ -1,0 +1,7 @@
+<aside class="notes__aside">
+    <nav class="notes__nav">
+        <ul class="notes__list">
+            <li class="notes__item" *ngFor="let note of notes;" [ngClass]="{active: isActive(note)}" (click)="toggle(note)"><a href="#note-id-{{note.id}}">{{note.title}} {{note.id}}</a></li>
+        </ul>
+    </nav>
+</aside>
